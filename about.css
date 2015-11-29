@@ -8,11 +8,13 @@
     background-size:cover;
     color:#0489B1;
     }
+
     a{
       color:white;
     }
     h1{
       font-size: 90px;
+      font-family: 'Lobster Two', cursive;
     }
     img{
       margin: 40px 0px 0px 0px;
@@ -56,8 +58,8 @@ h3 {
   text-align: center;
 }
 
-#mission p {
-  font-style: italic;
+#mission {
+  font-family: 'Indie Flower', cursive;
 }
 
 
