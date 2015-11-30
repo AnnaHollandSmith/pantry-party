@@ -1,0 +1,24 @@
+<style>
+body 
+{font-family: 'Indie Flower', cursive;
+}
+header, nav, section
+header {
+    text-align:center;
+    background:#99ccff;
+    opacity: 0.75;
+    background-size:cover;
+    color:#0489B1;
+    }
+    nav ul {margin:0; padding:0;}
+nav ul li {display:inline; margin:5px;}
+a{
+      color:white;
+    }
+    h1{
+      font-size: 90px;
+      font-family: 'Indie Flower', cursive;
+    }
+footer
+{text-align: right}
+</style>
