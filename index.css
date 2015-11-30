@@ -3,6 +3,28 @@ html
 	height: 100%;
 }
 
+.container, .row
+{
+	height: 100%;
+}
+
+#fridge, #cupboard
+{
+	background-repeat: repeat-y;
+	background-size: 100% 100px;
+	background-position: center 3px;
+}
+
+#fridge
+{
+	background-image: url('images/fridge shelf.png');
+}
+
+#cupboard
+{
+	background-image: url('images/cupboard shelf.png');
+}
+
 #fade
 {
 	background-image: url('pantry.jpeg');
@@ -41,9 +63,15 @@ body
 	color: white;
 }
 
+.available, #worksurface
+{
+	height: 100%;
+}
+
 .available img, #worksurface img
 {
 	height: 70px;
+	margin: 15px 0px;
 }
 
 .overlay
