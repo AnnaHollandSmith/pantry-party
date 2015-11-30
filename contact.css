@@ -1,23 +1,43 @@
 <style>
+
 body 
 {font-family: 'Indie Flower', cursive;
 }
+body {
+  background-image:url('images/pantry.jpeg');
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+form {
+  background-color: white;
+  opacity:0.8;
+  font-family: 'Indie Flower', cursive;
+}
+
 header, nav, section
-header {
+h1 {
     text-align:center;
-    background:#99ccff;
     opacity: 0.75;
     background-size:cover;
     color:#0489B1;
+    background:#99ccff;
+    opacity: 0.75;
     }
+    
     nav ul {margin:0; padding:0;}
 nav ul li {display:inline; margin:5px;}
+
+ul li {
+  font-family: 'Indie Flower', cursive;
+}
 a{
       color:white;
     }
     h1{
       font-size: 90px;
       font-family: 'Indie Flower', cursive;
+}
     }
 footer
 {text-align: right}

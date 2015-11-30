@@ -21,7 +21,7 @@ body {
     img{
       margin: 40px 0px 0px 0px;
       border: 7px solid white;
-      border-radius: 20px;
+      border-radius: 10px;
     }
     
     ul {
@@ -39,6 +39,7 @@ body {
 	min-height: 600pc;
 	background-image:url('images/pantry.jpeg');
 	background-size:cover;
+  background-repeat: no-repeat;
 	background-attachment: fixed;
 }
 
@@ -53,11 +54,13 @@ body {
   font-family: 'Indie Flower', cursive;
 }
 
+
 h2 {
   color:white;
   text-align:center;
   font-weight:bolder;
 }
+
 h3 {
   text-align: center;
 }
