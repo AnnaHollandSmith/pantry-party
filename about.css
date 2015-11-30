@@ -43,9 +43,21 @@ body {
 	background-attachment: fixed;
 }
 
+.jumbotron h1{
+  font-size: 75px;
+}
+
 #team {
 	background-color:rgba(70,130,180,0.7);
 	text-align-center;
+}
+
+#team p{
+  color:#CEF6F5;
+}
+
+#team h2 {
+  font-size:30px;
 }
 
 #mission {
@@ -64,8 +76,10 @@ h2 {
 h3 {
   text-align: center;
 }
-p {
-  font-family: 'Indie Flower', cursive;
+
+#mission p {
+  font-size: 18px;
+  color: #A4A4A4;
 }
 
 
