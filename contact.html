@@ -1,23 +1,72 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <title>Submit your Recipe</title>
+  <style>
+body {font-family: Helvetica, sans-serif; font-size:0.8em;}
+header, nav, section
+{border:1px solid grey; margin:5px; padding:8px;}
+nav ul {margin:0; padding:0;}
+nav ul li {display:inline; margin:5px;}
+footer
+{text-align: right}
+</style>
+</head>
   <body>
-<form action="action_page.php">
-  Recipe Name:<br>
-  <input type="text" name="Recipe Name">
+    <header>
+<h1>In The Pantry - Submit Your Recipe</h1>
+</header>
+
+<nav>
+<ul>
+  <li><a href="">Home</a></li>
+  <li><a href="">About</a></li>
+  <li><a href="">Recipes</a></li>
+  <li><a href="">Submit Your Recipe</a></li>
+
+</ul>
+</nav>
+
+<section>
+<form>
+  <fieldset>
+    <legend>Recipe</legend>
+    Name:<br>
+ <input type="text" name="recipename" size="40" maxlength="25" Placeholder="Enter Recipe Name" required>  <br>
   <br>
-  Ingredients:<br>
-  <input type="text" name="Ingredients">
-  <br><br>
-  Method:<br>
-  <input type="text" name="Method">
-  <br>
+  Select the number of ingredients (between 1 and 10):
+  <input type="number" name="ingredients" min="1" max="10" value="1">
+<br>
+Ingredients:<br>
+  <textarea name="message" rows="10" cols="30" Placeholder="Enter full list of ingredients" required>
+</textarea>
+<br>
+<br>
+Method:<br>
+  <textarea name="message" rows="10" cols="30" Placeholder="Enter full method" required>
+</textarea>
+<br>
+<br>
+Add a picture of your recipe: <input type="file" name="img"> 
+<button type="button">Submit your recipe image</button>
+<br>
+<br>
+</fieldset>
+ <fieldset>
+    <legend>Personal Information</legend>
   Name:<br>
-  <input type="text" name="Name">
+  <input type="text" name="Name" Placeholder=" Enter Full Name" required>
   <br>
   Email:<br>
-  <input type="text" name="Email">
+  <input type="email" name="Email" Placeholder="Enter Email Address" required>
   <br>
-  <input type="submit" value="Submit Your Recipe">
+  <br>
+</fieldset>
+<input type="image" src="submitpic.png" width="200" height="72" alt="Submit" onclick="alert('Thank You for submitting your recipe!')">
 </form>
+</section>
+<footer>
+<p>&copy; 2015 In The Pantry. </p>
+</footer>
 </body>
 </html>
