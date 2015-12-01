@@ -1,0 +1,111 @@
+<html>
+<head>
+  <style>
+	.table-container
+	{
+	  width:100%;
+	  display: block;
+	}
+	@media (min-width: 768px) {
+	  .table-container
+	  {
+    	width: 750px;
+		display:table;
+		table-layout:fixed;
+		margin-left:auto;
+		margin-right:auto;
+		min-height: 100%;
+	  }
+	}
+@media (min-width: 992px) {
+  .table-container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .table-container {
+    width: 1170px;
+  }
+}
+
+@media (min-width: 768px) {
+.table-container > .table-row
+{
+	display: table-row;
+	height: 0px;
+}
+
+.full-cell
+{
+	display: table-cell;
+}
+
+.table-container > .fill-row
+{
+	display: table-row;
+}
+.list-container
+{
+	display: table-cell;
+}
+
+.list
+{
+	height:100%;
+	width:100%;
+}
+}
+
+.list-container
+{
+	background-size: 100% 100px;
+	background-position: 0px 22px;
+}
+
+.list
+{
+	height:100%;
+	width:100%;
+	background-size:100% 22px;
+	background-repeat:no-repeat;
+	padding:22px 0px 0px;
+}
+	</style>
+</head>
+<body>
+<div class="table-container">
+<div class="table-row"><h1>In My Pantry</h1></div>
+<div class="fill-row">
+<div class="list-container" style="background-image:url('images/fridge shelf.png');">
+<div class="list" style="background-image:url('images/fridge top.png');">
+ONE
+</div>
+</div>
+<div class="list-container" style="background-image:url('images/cupboard shelf.png');">
+<div class="list" style="background-image:url('images/cupboard top.png');">
+TWO TWO TWO TWO TWO TWO TWO TWO TWO TWO
+TWO TWO TWO TWO TWO TWO TWO TWO TWO TWO
+TWO TWO TWO TWO TWO TWO TWO TWO TWO TWO
+TWO TWO TWO TWO TWO TWO TWO TWO TWO TWO
+TWO TWO TWO TWO TWO TWO TWO TWO TWO TWO
+TWO TWO TWO TWO TWO TWO TWO TWO TWO TWO
+TWO TWO TWO TWO TWO TWO TWO TWO TWO TWO
+TWO TWO TWO TWO TWO TWO TWO TWO TWO TWO
+TWO TWO TWO TWO TWO TWO TWO TWO TWO TWO
+TWO TWO TWO TWO TWO TWO TWO TWO TWO TWO
+TWO TWO TWO TWO TWO TWO TWO TWO TWO TWO
+TWO TWO TWO TWO TWO TWO TWO TWO TWO TWO
+TWO TWO TWO TWO TWO TWO TWO TWO TWO TWO
+TWO TWO TWO TWO TWO TWO TWO TWO TWO TWO
+TWO TWO TWO TWO TWO TWO TWO TWO TWO TWO
+TWO TWO TWO TWO TWO TWO TWO TWO TWO TWO
+TWO TWO TWO TWO TWO TWO TWO TWO TWO TWO
+</div>
+</div>
+<div class="list-container" style="background-image:url('images/worksurface.gif');">
+<div class="list" style="background-image:url('images/worksurface top.png');">
+THREE
+</div>
+</div>
+</div>
+</body>

@@ -1,47 +1,54 @@
 <!DOCTYPE html>
 <html>
   <head>
-  	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
-  	</script>
-  	<script src="index.js">
-  	</script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+    </script>
+    <script src="index.js">
+    </script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  	<link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
-  	<div id="fade">
-  		<h1>In My Pantry</h1>
-  	</div>
-  	<div style="display:none;" id="main">
-      <div class="container">
-      <div class="row">
-  	   <h1 class="col-sm-12">In My Pantry</h1>
-  	   <div id="fridge" class="col-sm-4 available">
-         <a href="#"><img src="foods/tomato.png" /></a>
-         <a href="#"><img src="foods/cheese.gif" /></a>
-         <a href="#"><img src="foods/celery.png" /></a>
-         <a href="#"><img src="foods/egg.png" /></a>
-         <a href="#"><img src="foods/red pepper.png" /></a>
-         <a href="#"><img src="foods/milk.png" /></a>
+    <div id="fade">
+      <div class="centered">
+        <h1>In My Pantry</h1>
+        <a id="enter" class="btn btn-primary">Enter Site</a>
+      </div>
+    </div>
+    <div style="display:none;" id="main">
+      <div class="table-container">
+        <div class="table-row">
+          <div class="full-cell">&nbsp;</div>
+          <div class="full-cell">
+            <h1>In My Pantry</h1>
+          </div>
+        </div>
+              <div class="fill-row">
+        <div class="list-container" id="fridge" style="background-image:url('images/fridge shelf.png');">
+          <div class="available list" style="background-image:url('images/fridge top.png');">
+            <a href="#"><img src="foods/tomato.png" /><span class="icon"></span></a>
+            <a href="#"><img src="foods/cheese.gif" /><span class="icon"></span></a>
+            <a href="#"><img src="foods/celery.png" /><span class="icon"></span></a>
+            <a href="#"><img src="foods/egg.png" /><span class="icon"></span></a>
+            <a href="#"><img src="foods/red pepper.png" /><span class="icon"></span></a>
+            <a href="#"><img src="foods/milk.png" /><span class="icon"></span></a>
+          </div>
        </div>
-       <div id="cupboard" class="col-sm-4 available">
-        <a href="#"><img src="foods/bread.png" /></a>
-        <a href="#"><img src="foods/baked beans.png" /></a>
-        <a href="#"><img src="foods/salt.png" /></a>
-        <a href="#"><img src="foods/pasta.png" /></a>
-
+       <div class="list-container" id="cupboard" style="background-image:url('images/cupboard shelf.png');">
+        <div class="available list" style="background-image:url('images/cupboard top.png');">
+          <a href="#"><img src="foods/bread.png" /><span class="icon"></span></a>
+          <a href="#"><img src="foods/baked beans.png" /><span class="icon"></span></a>
+          <a href="#"><img src="foods/salt.png" /><span class="icon"></span></a>
+          <a href="#"><img src="foods/pasta.png" /><span class="icon"></span></a>
+        </div>
       </div>
-      <div id="worksurface" class="col-sm-4">
-        <h2>Selected Items</h2>
-      </div>
+      <div class="list-container" id="worksurface" style="background-image:url('images/worksurface.gif');">
+        <div class="list" style="background-image:url('images/worksurface top.png');">
+          <h2 style="margin-top:0px;">Selected Items</h2>
+        <div style="width:100%;text-align:center;">
+          <button id="go" class="btn btn-default" style="width:200px;margin-left:auto;margin-right:auto;">Find Recipe <span class="glyphicon glyphicon-chevron-right"></span></button>
+        </div>
     </div>
-    </div>
-    <div class="overlay">
-      <div class="container">
-      <div class="row">
-        <div class="col-sm-8"></div>
-        <button id="go" class="btn btn-default col-sm-4">Go</button>
-      </div>
     </div>
   </div>
   </body>

@@ -8,11 +8,11 @@ var list = {
 	{
 		list.config = {
 			main: $('#main'),
-			worksurface: $('#worksurface'),
-			worksurfaceItemTemplate: $('#worksurface > a:eq(1)')
+			worksurface: $('#worksurface > .list'),
 		};
 		list.config.main.on('click', '.available a:not(.added)', list.addItem);
 		list.config.main.on('click', '.available a.added', list.removeItem);
+		$('#fade').on('click', '#enter', list.enter);
 		list.config.worksurface.on('click', 'a', list.removeItem);
 		list.addedItems = {};
 		list.originalItems = {};
@@ -29,14 +29,10 @@ var list = {
 	{
 		list.originalItems[$(this).html()].removeClass('added');
 		list.addedItems[$(this).html()].remove();
-	}
-};
-
-$(document).ready(function ()
-{
-	window.setTimeout(function ()
+	},
+	enter: function ()
 	{
 		$('#fade').fadeOut(1000);
 		$('#main').fadeIn(1500);
-	}, 2000);
-});
+	}
+};

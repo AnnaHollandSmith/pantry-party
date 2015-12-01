@@ -1,28 +1,72 @@
-html
+.table-container
 {
-	height: 100%;
+	width:100%;
+	display: block;
 }
 
-.container, .row
-{
-	height: 100%;
+@media (min-width: 768px) {
+  .table-container
+  {
+    width: 750px;
+	display:table;
+	table-layout:fixed;
+	margin-left:auto;
+	margin-right:auto;
+	min-height:100%;
+  }
 }
 
-#fridge, #cupboard
+@media (min-width: 992px) {
+  .table-container
+  {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .table-container
+  {
+    width: 1170px;
+  }
+}
+
+@media (min-width: 768px) {
+  .table-container > .table-row
+  {
+	display: table-row;
+	height: 0px;
+  }
+
+  .table-container > .fill-row
+  {
+	display: table-row;
+  }
+
+  .list-container
+  {
+	display: table-cell;
+  }
+
+  .list
+  {
+	height:100%;
+	width:100%;
+  }
+}
+
+.list-container
 {
-	background-repeat: repeat-y;
 	background-size: 100% 100px;
-	background-position: center 3px;
+	background-position: 0px 22px;
 }
 
-#fridge
+.list
 {
-	background-image: url('images/fridge shelf.png');
-}
-
-#cupboard
-{
-	background-image: url('images/cupboard shelf.png');
+	min-height:100px;
+	height:100%;
+	width:100%;
+	background-size:100% 22px;
+	background-repeat:no-repeat;
+	padding:22px 15px 0px 15px;
 }
 
 #fade
@@ -34,27 +78,26 @@ html
     background-size: 100%;
 }
 
+.full-cell
+{
+	display: table-cell;
+}
+
 body
 {
     min-height: 100%;
     margin: 0;
+    background-color: #7A979F;
 }
 
-#main
+#fade, #main
 {
 	position: absolute;
 	height: 100%;
 	width: 100%;
 }
 
-#fade
-{
-	position: absolute;
-	height: 100%;
-	width: 100%;
-}
-
-#fade > h1
+#fade > div
 {
 	position: relative;
 	top: 35%;
@@ -63,20 +106,61 @@ body
 	color: white;
 }
 
-.available, #worksurface
+h1,h2
 {
-	height: 100%;
+	text-align: center;
+	width: 100%;
+	color: white;
 }
 
 .available img, #worksurface img
 {
 	height: 70px;
-	margin: 15px 0px;
 }
 
-.overlay
+.available a,
+#worksurface a
 {
-	position: fixed;
-	bottom: 8px;
-	width:100%;
+	display: inline-block;
+	position: relative;
+	height: 70px;
+	margin: 15px 0px	;
+}
+
+.available a > .icon,
+#worksurface a > .icon
+{
+	display: none;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -20px;
+	margin-top: -20px;
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+	padding: 10px;
+	border-radius: 20px;
+
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.available a > .icon::before
+{
+	content:"\002b"
+}
+
+.available a.added > .icon::before,
+#worksurface a > .icon::before
+{
+	content:"\2212"
+}
+
+.available a:hover > .icon,
+#worksurface a:hover > .icon
+{
+	display: block;
 }
