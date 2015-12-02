@@ -10,3 +10,9 @@ WebFontConfig = {
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(wf, s);
   })(); 
+
+  $("#shareRoundIcons").jsSocials({
+    showLabel: false,
+    showCount: false,
+    shares: ["email", "twitter", "facebook", "googleplus", "linkedin", "pinterest"]
+});
