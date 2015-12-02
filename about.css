@@ -66,10 +66,15 @@ body {
 }
 
 
-h2 {
+h2{
   color:white;
   text-align:center;
   font-weight:bolder;
+  font-size:30px;
+}
+
+#mission h2 {
+  text-decoration: underline;
 }
 
 h3 {
@@ -79,6 +84,7 @@ h3 {
 #mission p {
   font-size: 18px;
   color: #A4A4A4;
+  text-align:center;
 }
 
 #photo {
@@ -144,6 +150,7 @@ input:hover {
 			}
 .btn-pinterest {background-color: #b62f26; border-color: #b62f26;
 			}
+
 
 .btn-twitter:hover {
   background: #0066cc
