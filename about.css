@@ -34,7 +34,6 @@ body {
       padding: 0px 10px 0px 10px;
     }
 
-
 .jumbotron {
 	min-height: 600pc;
 	background-image:url('images/pantry.jpeg');
@@ -90,9 +89,7 @@ h3 {
          -o-transition: .5s;
             transition: .5s;
 }
-#photo:hover {
-    opacity: 1;
-}
+
 #social-buttons button {
 	color: white; }
 
