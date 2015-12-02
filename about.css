@@ -128,12 +128,25 @@ input:hover {
 }
 
 #social-buttons button {
-	color: white; }
-
+	color: white; 
+}
+    
 .btn-twitter {background-color: #00acee; border-color:#009ad5;
 			}
 .btn-facebook {background-color: #4868ac; border-color: #314776;
 			}
 .btn-pinterest {background-color: #b62f26; border-color: #b62f26;
 			}
+
+.btn-twitter:hover {
+  background: #0066cc
+}
+.btn-facebook:hover {
+  background: #003399
+}
+.btn-pinterest:hover {
+  background:#800000
+}
+
+
 
