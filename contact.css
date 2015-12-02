@@ -1,5 +1,6 @@
 <style>
 
+
 body 
 {font-family: 'Indie Flower', cursive;
 }
@@ -13,7 +14,39 @@ form {
   background-color: white;
   opacity:0.8;
   font-family: 'Indie Flower', cursive;
+  font-size:25px;
+  text-align:center;
 }
+
+  ::-webkit-input-placeholder {
+ font-size: 12px;
+ color:#808080;
+ font-family: 'Indie Flower', cursive;
+ text-align: center;
+ font-weight: bold;
+}
+:-moz-placeholder { /* older Firefox*/
+ font-size:12px;
+ color:#808080;
+ font-family: 'Indie Flower', cursive;
+ text-align: center;
+ font-weight: bold;
+}
+::-moz-placeholder { /* Firefox 19+ */ 
+ font-size: 12px;
+ color:#808080; 
+ font-family: 'Indie Flower', cursive;
+ text-align: center;
+ font-weight: bold;
+} 
+:-ms-input-placeholder { 
+ font-size: 12px; 
+ color:#808080;
+ font-family: 'Indie Flower', cursive;
+ text-align: center;
+ font-weight: bold;
+}
+
 
 header, nav, section
 h1 {
@@ -34,11 +67,21 @@ ul li {
 a{
       color:white;
     }
-    h1{
-      font-size: 90px;
-      font-family: 'Indie Flower', cursive;
+
+h1{
+    font-size: 90px;
+    font-family: 'Indie Flower', cursive;
 }
-    }
-footer
-{text-align: right}
+
+button {
+  background-color:#0489B1;
+  color:white;
+  font-family:'Indie Flower', cursive;
+}
+  
+footer {
+  text-align:right;
+  color:white;
+  font-family: 'Indie Flower', cursive;
+  }
 </style>
