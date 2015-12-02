@@ -119,7 +119,7 @@ h1,h2
 }
 
 .available a,
-#worksurface a
+#worksurface a:not(#go)
 {
 	display: inline-block;
 	position: relative;
