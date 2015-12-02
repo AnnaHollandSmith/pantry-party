@@ -2,49 +2,52 @@
 
 <html>
 <head>
-
 	<title>In My Pantry</title>
 
 	<meta name= "viewport" content="width=device-width, initial-scale=1.0"> 
-
-	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
-<link href="assets/cool-share/plugin.css" media="all" rel="stylesheet" />
-    
-    <script src="jquery.js"></script>
-
-    <script src="about.js"></script>
-
-       
-
-		<link href= 'dist/css/bootstrap.css'rel='stylesheet'>
+      	 <link href= 'dist/css/bootstrap.css'rel='stylesheet'>
          <link href= 'about.css' type="text/css" rel='stylesheet'>
+
+         <scriptsrc="jquery.js"></script>
+
+         <script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Indie+Flower::latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
+
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!--load font awesome-->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+
 
 </head>
 
 
 <body>
 
-
-
 <div class='jumbotron'>
 	<header>
 	 <h1>About 'In My Pantry'</h1>
-	 <div class='col-sm-1'>
-		<input type="submit" value="Log In" class="login" />
-	</div>
 	    <ul>
 	      <li><a href="index.html">Home</a></li>
-	      <li><a href="about.html">About</a></li>
-	      <li><a href="">Recipes</a></li>
-	      <li><a href="contact.html">Submit Your Recipe</a></li>
-
+  		<li><a href="about.html">About</a></li>
+  		<li><a href="">Recipes</a></li>
+  		<li><a href="contact.html">Submit Your Recipe</a></li>
 	    </ul>
   	</header>
  			
 
-<br>
-<br>
-<br>
+
  	<div id="team" class='text-center'>
   		<div class='container'>
 
@@ -53,36 +56,36 @@
 		    
 		   <div class='col-sm-4'>
 		    <div>
-		      	<img  id='photo' src='images/Anna.jpg' width='50%' height='50%'
+		      	<img src='images/Anna.jpg' width='50%' height='50%'
 		          class='img-circle text-center'>
 		        	<blockquote>
 		         		<p class="text-center">Anna is a trainee solicitor who has enjoyed combining her interests in coding and food to help design and create In My Pantry.</p>
 		       		</blockquote>
-		         	<smaller class= 'smallname'>Anna Holland-Smith</smaller>
+		         	<small>Anna Holland-Smith</small>
 		    </div>
 		  </div>
 
 		  <div class='col-sm-4'>
 		    <div>
-		      <img id = 'photo'
+		      <img 
 		        src='images/Angel.jpg' width='50%' height='50%'
 		        class='img-circle text-center'>
 		      <blockquote>
 		        <p class="text-center">Blurb for Angel</p>
 		      </blockquote>
-		        <smaller class='smallname'>Angel Sequeira</smaller>
+		        <small>Angel Sequeira</small>
 		    </div>
 		  </div>
 
 		  <div class='col-sm-4'>
 		    <div>
-		      <img id ='photo'
+		      <img 
 		        src='images/Beverley.jpg' width='50%' height='50%'
 		        class='img-circle text-center'>
 		        <blockquote>
 		         <p class="text-center">Blurb for Beverley</p>
 		        </blockquote>
-		        <smaller class='smallname'>Beverley Anderson</smaller>
+		        <small>Beverley Anderson</small>
 
 		    </div> 
 		  </div>
@@ -97,12 +100,10 @@
   	<div class='container'>
    		 <h2>OUR MISSION</h2>
    			 <h3><big>In My Pantry's mission is to ensure that busy individuals continue to eat well</big></h3>
-<br>
-<br>
+
    		 <p class="lead"> We believe that there are plenty of delicious and creative recipes available even when your ingredients are limited.</p>
     	<p class="lead"> In My Pantry enables you to generate recipes based on the ingredients you have available to you.</p>
     	<p class="lead">We hope to inspire individuals to cook creatively whilst reducing food wastage</p>
-    	<br>
 
     	<div id='social-buttons'>
      		 <button class='btn btn-large btn-twitter'>Twitter</button>
@@ -112,8 +113,8 @@
  	 </div>
 	</div>
 
-</div>
 
+</div>
 
 </body>
 
