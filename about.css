@@ -93,6 +93,13 @@ h3 {
     opacity: 1;
 }
 
+.smallname {
+  color:white;
+  font-size:18px;
+  font-style: italic;
+
+}
+
 input {
  background:url('https://dh3vbjnk0bnfa.cloudfront.net/static/centralauth/images/btn-login.png') no-repeat 5px 5px #484B4F;
   width: 100px;
