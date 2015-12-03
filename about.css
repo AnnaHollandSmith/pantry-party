@@ -35,11 +35,11 @@ body {
     }
 
 .jumbotron {
-	min-height: 600pc;
 	background-image:url('images/pantry.jpeg');
 	background-size:cover;
   background-repeat: no-repeat;
 	background-attachment: fixed;
+	margin-bottom: 0px;
 }
 
 .jumbotron h1{
@@ -116,12 +116,6 @@ input:hover {
   text-indent: 20px;  
 }
 
-.twat {
-  float:right;
-  font-family:Helvetica, sans-serif;
-}
-
-
 #photo {
     opacity: .7; /* Change this to .5 for 50% opacity */
     -webkit-transition: .5s;
@@ -170,11 +164,6 @@ input:hover {
   text-indent: 20px;  
 }
 
-.twat {
-  float:right;
-  font-family:Helvetica, sans-serif;
-}
-
 #social-buttons button {
 	color: white; 
 }
@@ -198,4 +187,8 @@ input:hover {
 }
 
 
-
+footer {
+  text-align:right;
+  color:white;
+  font-family: 'Indie Flower', cursive;
+  }
