@@ -3,12 +3,14 @@ body {
   font-family: 'Indie Flower', cursive;
 }
 
+
  header {
     text-align:center;
     background:#99ccff;
     opacity: 0.75;
     background-size:cover;
     color:#0489B1;
+    font-family: 'Indie Flower', cursive;
     }
 
     a{
@@ -40,6 +42,7 @@ body {
   background-repeat: no-repeat;
 	background-attachment: fixed;
 	margin-bottom: 0px;
+  font-family: 'Indie Flower', cursive;
 }
 
 .jumbotron h1{
@@ -53,6 +56,7 @@ body {
 
 #team p{
   color:#CEF6F5;
+  font-family: 'Indie Flower', cursive;
 }
 
 #team h2 {
@@ -71,6 +75,7 @@ h2{
   text-align:center;
   font-weight:bolder;
   font-size:30px;
+  font-family: 'Indie Flower', cursive;
 }
 
 #mission h2 {
@@ -85,6 +90,7 @@ h3 {
   font-size: 18px;
   color: #A4A4A4;
   text-align:center;
+  font-family: 'Indie Flower', cursive;
 }
 
 input {
@@ -132,6 +138,7 @@ input:hover {
   color:white;
   font-size:18px;
   font-style: italic;
+  font-family: 'Indie Flower', cursive;
 
 }
 
