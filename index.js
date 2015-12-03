@@ -7,7 +7,7 @@ var list = {
 	init: function ()
 	{
 		list.config = {
-			main: $('#main'),
+			main: $('body'),
 			worksurface: $('#worksurface > .list'),
 		};
 		list.config.main.on('click', '.available a:not(.added)', list.addItem);
