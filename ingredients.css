@@ -21,7 +21,7 @@ header {
 
     h1{
       font-size: 60px;
-      text-align:left;
+      text-align:center;
       font-family: 'Indie Flower', cursive;
       white-space: nowrap;
     }
@@ -29,6 +29,7 @@ header {
     ul {
       padding: 10px;
       background:rgba(0,0,0,0.3);
+      opacity:0.7;
     }
 
     li {
